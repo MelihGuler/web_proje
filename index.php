@@ -1,13 +1,39 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Melih Güler</title>
-</head>
+<?php require_once "includes/header.php"; ?>
 <body>
+<?php require_once "includes/navbar.php"; ?>
+<div class="row">
+	<div class="sidebar">
+		<h2>Hakkımda</h2>
+		<div class="image_holder">
+			<img id="my_photo"
+				 src="https://avatars2.githubusercontent.com/u/34775101?s=400&u=f4fe347b1aa778f0b4963a4513d82ecddf87d433&v=4">
+		</div>
+		<p>
+			1999 Yılında Sakarya'da doğdum. 2005 yılında Mithatpaşa İlköğretim Okuluna başladım, 2013 yılında mezun
+			oldum.
+			Lise'yi Ali Dilmen Anadolu Lisesi'nde okudum. 2017 yılında Sakarya Üniversitesi Bilgisayar Mühendisliği
+			Bölümü'nde okumaya başladım ve halihazırda okumaya devam etmekteyim.
+		</p>
+	</div>
+	<div class="content">
+		<h2>Hobilerim</h2>
 
+		<div class="image_holder">
+			<img id="gustavo_photo" src="./assets/images/gustavo.jpg">
+		</div>
+		<p>
+			Hobilerim, futbol oynamak, basketbol oynamak, bilgisayar oyunları ve elektronikle uğaşmaktır.
+		</p>
+		<div class="image_holder">
+			<img id="electronic_photo" src="./assets/images/electronic.jpg">
+		</div>
+
+	</div>
+</div>
+<?php require_once "includes/footer.php"; ?>
+
+<?php require_once "assets/footer/script-standard.php"; ?>
 </body>
 </html>

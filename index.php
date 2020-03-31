@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <?php require_once "includes/header.php"; ?>
+<?php require_once "assets/header/head-index.php"; ?>
 <body>
 <?php require_once "includes/navbar.php"; ?>
 <div class="row">
@@ -18,6 +19,17 @@
 		</p>
 	</div>
 	<div class="content">
+		<h2>Çalışmalar</h2>
+		<div class="image_holder">
+			<img id="coding_photo" src="./assets/images/coding.jpg">
+		</div>
+		<p>
+			PHP, Python gibi dillerde proje geliştiriyorum.
+			Yaklaşık bir yıldır Teknokent'te, insan kaynakları
+			uygulaması geliştiren bir firmada çalışıyorum.
+			Projeleri PHP ve Mysql kullanarak gerçekleştiriyoruz.
+
+		</p>
 		<h2>Hobilerim</h2>
 
 		<div class="image_holder">
@@ -33,7 +45,5 @@
 	</div>
 </div>
 <?php require_once "includes/footer.php"; ?>
-
-<?php require_once "assets/footer/script-standard.php"; ?>
 </body>
 </html>

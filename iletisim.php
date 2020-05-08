@@ -33,7 +33,8 @@
 			<input id="input_puan" name="puan" type="range" min="0" max="100" value="0" required><label
 					id="site_puan">0</label>
 			<br><br><br>
-			<button type="submit">Gönder</button>
+			<button type="submit" style="margin-right: 15px;">Gönder</button>
+			<button id="clear_form" type="reset">Formu Temizle</button>
 		</form>
 		<br><br><br><br><br><br><br><br><br>
 		<br><br><br><br><br><br><br><br><br>
@@ -44,6 +45,9 @@
 <script>
 	document.getElementById("input_puan").onchange = function () {
 		document.getElementById("site_puan").innerHTML = this.value;
+	};
+	document.getElementById("clear_form").onclick = function () {
+		document.getElementById("site_puan").innerHTML = "0";
 	};
 </script>
 </body>

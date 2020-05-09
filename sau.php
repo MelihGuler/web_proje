@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="en">
 <?php require_once "includes/header.php"; ?>
-<?php require_once "assets/header/head-sau.php"; ?>
 <body>
 <?php require_once "includes/navbar.php"; ?>
-<div id="mg_flex_sau_container">
+<div id="mg_flex_main_article">
 	<h2 style="margin: 20px 0 0 20%;">
 		Sakarya Üniversitesi
 	</h2>
-	<div id="mg_flex_sau_photo">
+	<div id="mg_flex_default_photo">
 		<img style="width: 100%;" src="assets/images/sau.jpg">
 	</div>
-	<div id="mg_flex_sau_article">
+	<div id="mg_flex_default_article">
 		<p>
 			Sakarya Üniversitesi, ilk olarak 1970 yılında Sakarya Mühendislik ve Mimarlık Yüksekokulu olarak kurulmuş
 			olup 1971 yılında Sakarya Devlet Mimarlık ve Mühendislik Akademisi olarak değişmiştir. 1982 ve 1992 yılları

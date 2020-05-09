@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="en">
 <?php require_once "includes/header.php"; ?>
-<?php require_once "assets/header/head-sapanca.php"; ?>
 <body>
 <?php require_once "includes/navbar.php"; ?>
-<div id="mg_flex_sapanca_container">
+<div id="mg_flex_main_article">
 	<h2 style="margin: 20px 0 0 20%;">
 		Sapanca
 	</h2>
-	<div id="mg_flex_sapanca_photo">
+	<div id="mg_flex_default_photo">
 		<img style="width: 100%;" src="assets/images/sapanca.jpg">
 	</div>
-	<div id="mg_flex_sapanca_article">
+	<div id="mg_flex_default_article">
 		<p>
 			Sapanca, kuzeyinde Sapanca Gölü, doğusunda Adapazarı, güneyinde Samanlı Dağları, Geyve ve Pamukova ilçeleri
 			ve batısında da Kocaeli merkez ilçesi İzmit ile çevrili şirin yemyeşil bir ilçedir. İlçeyle aynı ismi

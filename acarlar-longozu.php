@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="en">
 <?php require_once "includes/header.php"; ?>
-<?php require_once "assets/header/head-acarlar-longozu.php"; ?>
 <body>
 <?php require_once "includes/navbar.php"; ?>
-<div id="mg_flex_longoz_container">
+<div id="mg_flex_main_article">
 	<h2 style="margin: 20px 0 0 20%;">
 		Acarlar Longozu
 	</h2>
-	<div id="mg_flex_longoz_photo">
+	<div id="mg_flex_default_photo">
 		<img style="width: 100%;" src="assets/images/acarlar-longozu.jpg">
 	</div>
-	<div id="mg_flex_longoz_article">
+	<div id="mg_flex_default_article">
 		<p>
 			1,562 hektarlık bir alanı kapsayan Acarlar Gölü, Sakarya’nın önemli turizm merkezlerindendir. Acarlar Gölü
 			Longoz Ormanı ise birinci derece doğal sit alanıdır. Koruma bölgesi içinde bulunan Acarlar Longozu, yaz

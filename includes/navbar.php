@@ -9,5 +9,5 @@
 	<a href="sehrim.php">Şehrim</a>
 	<a href="takimimiz.php">Takımımız</a>
 	<a href="iletisim.php">İletişim</a>
-	<a href="#" id="navbar_login">Giriş&nbsp;<i class="fa fa-sign-in"></i></a>
+	<a href="giris.php" id="navbar_login">Giriş&nbsp;<i class="fa fa-sign-in"></i></a>
 </div>

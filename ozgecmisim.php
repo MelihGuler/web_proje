@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
 <?php require_once "includes/header.php"; ?>
-<?php require_once "assets/header/head-ozgecmisim.php"; ?>
 <body>
 <?php require_once "includes/navbar.php"; ?>
-<div id="mg_flex_ozgecmisim_container">
+<div id="mg_flex_main_article">
 	<h2 style="margin: 20px 0 0 20%;">
 		Özgeçmişim
 	</h2>
-	<div id="mg_flex_ozgecmisim_article">
+	<div id="mg_flex_default_article">
 		<p>
 			<span style="color: red;">İlköğretim:</span> Mithatpaşa İlköğretim Okulu 2005<br>
 			<span style="color: red;">Lise:</span> Ali Dilmen Anadolu Lisesi 2013<br>

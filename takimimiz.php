@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="en">
 <?php require_once "includes/header.php"; ?>
-<?php require_once "assets/header/head-takimimiz.php"; ?>
 <body>
 <?php require_once "includes/navbar.php"; ?>
-<div id="mg_flex_takimimiz_container">
+<div id="mg_flex_main_article">
 	<h2 style="margin: 20px 0 0 20%;">
-		Sakarya Üniversitesi
+		Sakaryaspor
 	</h2>
-	<div id="mg_flex_takimimiz_photo">
+	<div id="mg_flex_default_photo">
 		<img style="width: 100%;" src="assets/images/ss.jpg">
 	</div>
-	<div id="mg_flex_takimimiz_article">
+	<div id="mg_flex_default_article">
 		<h4>Sakaryaspor Kulübü'nün Kuruluş Hikayesi</h4>
 		<p>
 			Sehrin 1900'lü yılların başında başlayıp, zaman içinde olgunlaşan köklü futbol geçmişinin, bir potada
